@@ -1,4 +1,3 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
 
 sdm-libs := sdm/libs
 display-hals := include $(sdm-libs)/utils $(sdm-libs)/core
@@ -22,4 +21,3 @@ ifneq ($(filter msm% apq%,$(TARGET_BOARD_PLATFORM)),)
 endif
 endif
 
-endif
